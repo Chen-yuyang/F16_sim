@@ -1,0 +1,21 @@
+# Simulink cache
+*.slxc
+
+# Compiled MEX binaries
+*.mexw64
+*.mexmaci64
+*.mexa64
+
+# Simulink build artifacts
+slprj/
+
+# MATLAB generated files
+*.asv
+*.bak
+
+# IDE / editor settings
+.claude/
+trae/
+
+# AI-generated documentation (not source code)
+claude/
