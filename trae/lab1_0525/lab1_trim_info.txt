@@ -1,0 +1,29 @@
+========================================
+  F-16 配平信息 - 实验1 步骤3 (lab1_0525)
+========================================
+
+飞行条件: H = 5000 m, V = 200 m/s
+
+--- LOFI ---
+  alpha    = 1.9996 deg
+  theta    = 1.9996 deg
+  elevator = -1.8677 deg
+  aileron  = -0.4152 deg
+  rudder   = 4.3740 deg
+  throttle = 0.2245
+  thrust   = 14.5784 %
+  power    = 14.5784 %
+  dLEF     = 0.0000 deg
+
+--- HIFI ---
+  alpha    = 1.9996 deg
+  theta    = 1.9996 deg
+  elevator = -1.5309 deg
+  aileron  = -0.1736 deg
+  rudder   = 1.4205 deg
+  throttle = 0.2186
+  thrust   = 14.1926 %
+  power    = 14.1926 %
+  dLEF     = 2.0212 deg
+
+输入: 5 deg 升降舵 Doublet (通过 Elev_Disturb 注入)

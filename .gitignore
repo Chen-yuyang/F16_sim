@@ -9,13 +9,35 @@
 # Simulink build artifacts
 slprj/
 
-# MATLAB generated files
+# MATLAB autosave
 *.asv
 *.bak
 
 # IDE / editor settings
 .claude/
-trae/
 
-# AI-generated documentation (not source code)
-claude/
+# CodeGraph local index
+.codegraph/
+
+# Generated simulation outputs and figures
+*.mat
+*.fig
+*.png
+*.jpg
+*.jpeg
+
+# Simulink build cache (inside lab dirs)
+slprj/
+
+# reference manuals — exclude PDFs and images
+reference/*.pdf
+reference/images/
+
+# Weekly reports (not source code)
+周报/
+
+# trae: only exclude generated images/figures in lab1_0525
+trae/lab1_0525/*.fig
+trae/lab1_0525/*.png
+trae/lab1_0429/*.fig
+trae/lab1_0429/*.png
