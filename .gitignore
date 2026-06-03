@@ -39,18 +39,16 @@ slprj/
 # Simulink build cache (inside lab dirs)
 slprj/
 
-# reference manuals — exclude PDFs and images
-reference/*.pdf
-reference/images/
+# reference manuals
+reference/
 
 # Weekly reports (not source code)
 周报/
 
-# trae: only exclude generated images/figures in lab1_0525
-trae/lab1_0525/*.fig
-trae/lab1_0525/*.png
-trae/lab1_0429/*.fig
-trae/lab1_0429/*.png
+# trae: intermediate subdirectories not committed
+trae/0429/
+trae/test5/
+trae/lab1_0429/*.md
 
 # claude: intermediate labs and reports not tracked
 claude/*.md
