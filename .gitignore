@@ -16,6 +16,9 @@ slprj/
 # IDE / editor settings
 .claude/
 
+# Python virtual environment (for MATLAB Engine daemon)
+.venv/
+
 # CodeGraph local index
 .codegraph/
 
