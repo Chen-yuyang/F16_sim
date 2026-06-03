@@ -9,6 +9,13 @@
 # Simulink build artifacts
 slprj/
 
+# Editor temporary files / backups
+~*
+*.orig
+*.swp
+*.swo
+*~
+
 # MATLAB autosave
 *.asv
 *.bak
@@ -44,3 +51,13 @@ trae/lab1_0525/*.fig
 trae/lab1_0525/*.png
 trae/lab1_0429/*.fig
 trae/lab1_0429/*.png
+
+# claude: intermediate labs and reports not tracked
+claude/*.md
+claude/lab3_0520/
+claude/lab3_0521/
+claude/lab3_0525/
+claude/lab3_0525_2/test_models/
+claude/lab3_0525_2/wiring_verification_report.md
+claude/lab4_0527/test_models/
+claude/lab3_0603/test_models/
